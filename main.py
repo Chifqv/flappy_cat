@@ -100,8 +100,8 @@ def update():
     if not game_over:
         root.after(30, update)
 
-# столбы
 
+# столбы
 def create_pipe():
     gap_y = random.randint(150, 450) # нахождение дырки
     
